@@ -1,0 +1,35 @@
+# --- Logs and Temporary Files ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- macOS and Windows Trash Files ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- JetBrains IDEs (IntelliJ, PyCharm, etc.) ---
+.idea/
+
+# --- Vim Backup Files ---
+*.swo
+*.swp
+
+# --- Test Outputs ---
+test-output/
+
+# --- Node.js projects (just in case) ---
+node_modules/
+
+# --- Python (if any future scripts) ---
+__pycache__/
+*.pyc
+
+# --- Other build outputs (general safe exclusions) ---
+dist/
+build/
+
